@@ -1,0 +1,15 @@
+{
+  "weights": {
+    "get_root": 5,
+    "get_restaurants": 45,
+    "get_restaurant_id": 30,
+    "post_order": 15,
+    "bogus": 5
+  },
+  "post_invalid_json_pct": 25,
+  "post_missing_fields_pct": 30,
+  "post_wrong_content_type_pct": 10,
+  "max_restaurant_id": 8,
+  "user_agent": "my-traffic-gen/1.0",
+  "timeout_seconds": 6
+}
