@@ -1,0 +1,18 @@
+# Example configuration for the FoodMe traffic generator
+# Copy this file and adjust the values to fit your scenario.
+target: "http://3.255.201.249:3000"
+traffic_type: "mixed"
+rps: 8
+summary_interval: 45
+weights:
+  get_root: 5
+  get_list: 20
+  get_one: 35
+  post_order: 30
+  bogus: 10
+error_rates:
+  get_one: 0.2
+  post_order: 0.4
+  bogus: 1.0
+headers:
+  X-Load-Source: "traffic-generator"
